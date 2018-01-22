@@ -21,7 +21,7 @@ RUN mkdir pullrequest && \
 
 # add pipenv reference PipFile implementation
 RUN easy_install pip \
-    && pip install --upgrade pipenv \
+    && pip install --upgrade pip \
     && pip install pipenv
 
 # run everything from here on as non-root
