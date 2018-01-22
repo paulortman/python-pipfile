@@ -1,0 +1,6 @@
+# dependencies-cli test cache
+.cache
+
+
+.idea
+.pyc
