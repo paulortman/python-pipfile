@@ -19,6 +19,7 @@ RUN mkdir pullrequest && \
     tar -zxvf pullrequest_${PULLREQUEST_VERSION}_linux_amd64.tar.gz -C pullrequest && \
     ln -s /usr/src/app/pullrequest/pullrequest /usr/local/bin/pullrequest
 
+# add pipenv reference PipFile implementation
 RUN easy_install pip \
     && pip install --upgrade pipenv \
     && pip install pipenv
